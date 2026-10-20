@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Question 3 - Compare Native JS and jQuery</title>
+  <style>
+    .myStyle {
+      background-color: coral;
+      padding: 16px;
+    }
+  </style>
+  <!-- Official full-build jQuery 4.0.0 CDN link -->
+  <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
+</head>
+<body>
+  <div id="myElement">Original Text</div>
+  <div id="myDIV"><p>I am a myDIV.</p></div>
+  <button id="myButton" type="button">Click me</button>
+
+  <script>
+    $(document).ready(function() {
+      // (a) Replace text of #myElement with "Modified Text"
+      $("#myElement").text("Modified Text");
+
+      // (b) Add the myStyle class to #myDIV
+      $("#myDIV").addClass("myStyle");
+
+      // (c) Respond to a click on #myButton by showing "Button clicked!"
+      $("#myButton").on("click", function() {
+        alert("Button clicked!");
+      });
+    });
+  </script>
+</body>
+</html>

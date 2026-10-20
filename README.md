@@ -16,51 +16,30 @@ This repository contains the completed solutions for Lab 4b (Client-Side Scripti
 bic21203-lab4b-json-jquery/
 │
 ├── books.json                  # Question 1: Valid JSON dataset
-├── books.html
-├── jquery-dom.html
-└── README.md        
+├── books.html                  # Question 2: Retrieve & display JSON using fetch()
+├── jquery-dom.html             # Question 3: jQuery 4.0.0 DOM & event handling
+└── README.md                   # Lab documentation and screenshots
 ```
 
 ## 📸 Test Results and Evidence
 
-### Question 1 — Interactive Text Changer
-- **Figure 1.1: Initial Page Load**  
-![Figure 1.1](https://github.com/user-attachments/assets/984c49bc-d358-4078-b50f-1c62122ee812)
-
-
-
-- **Figure 1.2: Message Changed**  
-![Figure 1.2](https://github.com/user-attachments/assets/21e98e39-bc66-48b7-8315-95d98e846014)
-
+### Question 1 — Create and Structure JSON Data
+- **Figure 1.1: Valid JSON Dataset Structure**  
+![Figure 1.1](https://github.com/user-attachments/assets/87228778-fd6f-406b-bd71-0a6a3eb3244d)
 
 ---
 
-### Question 2 — Smart Number Validator
-- **Figure 2.1: Input Below 10 (`5`)**  
-![Figure 2.1](https://github.com/user-attachments/assets/ecab0867-8333-4ac5-b861-d4d7ac4526f8)
-
-
-- **Figure 2.2: Input Equal to 10 (`10`)**  
-![Figure 2.2](https://github.com/user-attachments/assets/7f460cf7-41ca-4299-a2b3-9a8f2de47f83)
-
-
-- **Figure 2.3: Input Above 10 (`15`)**  
-![Figure 2.3](https://github.com/user-attachments/assets/1eae7454-fdff-43dd-8b95-c148300bc15e)
-
-
-- **Figure 2.4: Invalid Input (`abc`)**  
-![Figure 2.4](https://github.com/user-attachments/assets/fc0b4791-3b16-4a02-b389-dace4c0ea6df)
-
-
-- **Figure 2.5: Empty Input**  
-![Figure 2.5](https://github.com/user-attachments/assets/2a4a4841-2884-4332-b81a-64823c5d3024)
+### Question 2 — Retrieve and Display JSON Data
+- **Figure 2.1: Retrieved JSON Data Rendered via Live Server**  
+![Figure 2.1](https://github.com/user-attachments/assets/514b4bd4-ec12-4f0a-ab06-8c77be41326f)
 
 ---
 
-### Question 3 — Dynamic Number Generator
-- **Figure 3.1: Initial Page Load**  
-![Figure 3.1](https://github.com/user-attachments/assets/0cd96860-1aae-4e98-8f96-0815b08b778a)
+### Question 3 — Compare Native JavaScript and jQuery
+- **Figure 3.1: jQuery DOM Text Manipulation and Class Styling**  
+![Figure 3.1](https://github.com/user-attachments/assets/00501481-6658-43ad-815e-9b2fbb614bb9)
 
 
-- **Figure 3.2: Generated List Output & Repeated Click Test**  
-![Figure 3.2](https://github.com/user-attachments/assets/db3aeec0-edd8-43da-b167-0a7b99dae12a)
+- **Figure 3.2: jQuery Click Event Alert Output**  
+![Figure 3.2](https://github.com/user-attachments/assets/785d2b52-a998-4eee-8b5d-2cfff4fe55f3)
+
